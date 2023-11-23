@@ -1,0 +1,18 @@
+.Home-Marquee_Box{
+  width: 1240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Home-Marquee_Box img{
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.6s;
+}
+
+
+.Home-Marquee_Box img:hover{
+  transition-duration: 0.6s;
+ transform: scale(0.7);
+}
